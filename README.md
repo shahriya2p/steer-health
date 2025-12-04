@@ -159,3 +159,17 @@ If you re-run the test using the same static slot, you will likely see all reque
 ## Logging
 
 Project uses `pino` for structured logging. Controllers and services log errors and important events using `pino`. In development the `pino-pretty` transport is used for human-friendly output.
+
+## Screenshots
+Concurrency Test
+
+<img width="530" height="310" alt="image" src="https://github.com/user-attachments/assets/1b46db70-f4ce-44df-8efb-d93d09eba835" />
+
+- Try to hold appointment for already booked slot
+  <img width="1170" height="406" alt="image" src="https://github.com/user-attachments/assets/46784e21-3920-4a86-8526-5b00cc2e6fa1" />
+
+- Hold appointment for different slot
+  <img width="1170" height="406" alt="image" src="https://github.com/user-attachments/assets/575a3b5a-6e4c-4ca2-b713-45705abd1335" />
+
+
+
